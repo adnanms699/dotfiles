@@ -1,14 +1,31 @@
-# Open-source, cross-platform JavaScript runtime environment
+# ============================================
+# Adnan's Dotfiles - Brewfile
+# ============================================
+
+# -------------------------
+# CLI Tools (formulae)
+# -------------------------
+
 brew "node@24", link: true
-# Interpreted, interactive, object-oriented programming language
 brew "python@3.14"
-# Software environment for statistical computing
 brew "r"
-# Web browser
+
+# -------------------------
+# GUI Applications (casks)
+# -------------------------
+
 cask "google-chrome"
-# Data science software focusing on R and Python
 cask "rstudio"
-# Video communication and virtual meeting platform
 cask "zoom"
+
+# -------------------------
+# VS Code Extensions
+# -------------------------
+
 vscode "ritwickdey.liveserver"
+
+# -------------------------
+# Global NPM Packages
+# -------------------------
+
 npm "corepack"
